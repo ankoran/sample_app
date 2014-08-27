@@ -3,7 +3,8 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.8'
-
+gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.4'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
@@ -15,6 +16,8 @@ group :test do
   gem 'factory_girl_rails'
   gem 'cucumber-rails', '1.4.0', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+
+gem 'bootstrap-will_paginate', '0.0.9'
 end
 
 gem 'sass-rails'
